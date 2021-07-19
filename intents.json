@@ -1,0 +1,40 @@
+{"intents": [
+        {"tag": "greeting",
+          "patterns": ["hi", "how are you", "is anyone there?", "good morning","excuse me","i need help","hello","hey","can i get some help","hi there?"],
+          "responses": ["hello, how can i help", "hi, how i can help you", "good to see you again, how can i help you"],
+          "context_set": ""
+        },
+        {"tag": "goodbye",
+          "patterns": ["bye", "see you later", "goodbye", "i am leaving", "talk to you later","i have to go","have a good day","signing off","take care"],
+          "responses": ["sad to see you go :(", "goodbye!", "i will miss you, bye"],
+          "context_set": ""
+        },
+        {"tag": "name",
+          "patterns": ["what is your name","who are you", "what should i call you", "whats your name?", "tell me about yourself", "are u a bot?"],
+          "responses": ["you can call me lifelinebot", "I am lifelinebot", "i am a bot by lifeline developer"],
+          "context_set": ""
+        },
+        {"tag": "grievances",
+          "patterns": ["site is bot working", "complaint", "report", "very bad service","appointment is not working"],
+          "responses": ["we are sorry for inconvenience , contact us on  lifeline.customercare@gmail.com or 011-25267879"],
+          "context_set": ""
+        },
+        {"tag": "appointment",
+          "patterns": ["how i can book appointment","appointment procedure","appointment","how can i book doctor","book doctor"],
+          "responses": ["Go to home page, login and book your doctor"],
+          "context_set": ""
+        },
+        {"tag": "about",
+          "patterns": ["who made you","what is lifeline","who made this","owner of lifeline","tell me about lifeline","name of owner of lifeline","maker"],
+          "responses": ["lifeline website is made by four collage students, they made this project as there collage minor project"],
+          "context_set": ""
+        },
+        {"tag": "cancel",
+          "patterns": ["want to cancel appointment ","how i cancel my appointment","don't want appointment","refund","cancellation refund","when i get my refund"],
+          "responses": ["you can cancel your appointment through you dashboard and write us on lifeline.customercare@gmail.com for any dispute or refund our customer executive will reach you asap"],
+          "context_set": ""
+        }
+
+  ]
+
+}
